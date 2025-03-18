@@ -1,0 +1,36 @@
+git init
+git --version
+winget install --id Git.Git -e --source winge
+cls
+git config user.name
+git config user.email
+git config --global user.name "Shaileshautla786"
+git config --global user.email "Shaileshautla1@outlook.com"
+git config user.name
+git config user.email
+git status
+cls
+mkdir gitpractice
+cd gitpractice
+git init
+git config --global user.name "Shaileshautla786"
+git config --global user.email "Shaileshautla1@outlook.com"
+git status
+git clone https://github.com/tensorflow/tensorflow.git
+del .git
+Y
+dir
+del .
+Y
+del ..
+Y
+dir
+cls
+git clone https://github.com/Shaileshautla786/dotnetcore-docs-hello-world.git
+dir
+cd dotnetcore-docs-hello-world
+git status
+history
+cls
+doskey /history
+doskey /history > commands.txt
